@@ -1,0 +1,6 @@
+(version 1)
+(rule "crappy_footprint_override"
+    (condition "A.insideArea('usbcrap')")
+    (constraint edge_clearance (min -1mm))
+	(constraint physical_clearance (min 0mm))
+)
